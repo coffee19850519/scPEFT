@@ -5,7 +5,8 @@
 - Scripts to reproduce and visualise results obtained in the manuscript we have a dedicated
   repository [scPEFT_reproduction](https://github.com/BeacherKim/scPEFT_reproduction).
 
-## Benchmarking datasets
+## Processed benchmarking datasets
+The benchmarking data were split for 5-fold cross-validation by donors. 
 
 ### Datasets for cell type identification
 - M.S.: [link](https://mailmissouri-my.sharepoint.com/:f:/r/personal/hefe_umsystem_edu/Documents/scPEFT_datasets/celltype_identification/ms?csf=1&web=1&e=udxeon)
