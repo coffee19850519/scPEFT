@@ -32,7 +32,7 @@ cd scPEFT
    model  [scGPT model checkpoint](https://github.com/bowang-lab/scGPT/blob/main/README.md#pretrained-scgpt-model-zoo)
    and place it at e.g., `work_dir/scPEFT/save`. We recommend using
    the [whole-human](https://drive.google.com/drive/folders/1oWh_-ZRdhtoGQ2Fw24HP41FgLoomVo-y?usp=sharing) model for
-   most applications by default, which pretrained on 33 million normal human cells..
+   most applications by default, which pretrained on 33 million normal human cells.
 
 2. The tutorials of scPEFT for downstream tasks
    in  [tutorial_peft](https://github.com/SELECT-FROM/scPEFT/tree/main/tutorial_peft). Here are the links to the
