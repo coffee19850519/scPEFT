@@ -3,7 +3,7 @@
 ## Repository 
 
 - Scripts to reproduce and visualise results obtained in the manuscript we have a dedicated
-  repository [scPEFT_reproduction](https://github.com/BeacherKim/scPEFT_reproduction).
+  repository [scPEFT_reproduction](https://github.com/coffee19850519/scPEFT_reproduction).
 
 ## Available datasets
 
