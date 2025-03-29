@@ -9,9 +9,7 @@ Fine-Tuning using scPEFT**. To reproduce the results from the paper, please visi
 
 ## Installation
 
-scPEFT works with Python >= 3.7.13. Please make sure you have the correct version of Python installed pre-installation.
-
-scPEFT is available on PyPI. To install scPEFT, run the following command:
+scPEFT works with Python >= 3.7.13. scPEFT is available on PyPI. To install scPEFT, run the following command:
 
 ```bash
 pip install scpeft
@@ -20,11 +18,12 @@ pip install scpeft
 For developing, run the following command:
 
 ```
-git clone https://github.com/SELECT-FROM/scPEFT
+git clone https://github.com/coffee19850519/scPEFT
 cd scPEFT
 ```
 
-**Note**: [requirements. ymal](https://github.com/SELECT-FROM/scPEFT/blob/main/requirements.yaml) are all the dependency versions we recommend using. To ensure smooth code operation, please try to keep them consistent with these package versions as much as possible
+**Note**: scPEFT is currently built on top of [scGPT](https://github.com/bowang-lab/scGPT), [scBERT](https://github.com/TencentAILabHealthcare/scBERT), and [Geneformer](https://huggingface.co/ctheodoris/Geneformer).
+Please follow their installation instructions to ensure all necessary versioned dependencies are installed. We provide a [requirements. ymal](https://github.com/SELECT-FROM/scPEFT/blob/main/requirements.yaml) file for the environment in which scPEFT was developed.
 
 ## Get Started
 
@@ -35,16 +34,16 @@ cd scPEFT
    most applications by default, which pretrained on 33 million normal human cells.
 
 2. The tutorials of scPEFT for downstream tasks
-   in  [tutorial_peft](https://github.com/SELECT-FROM/scPEFT/tree/main/tutorial_peft). Here are the links to the
+   in  [tutorial_peft](https://github.com/coffee19850519/scPEFT/tree/main/tutorial_peft). Here are the links to the
    downstream tasks and tutorials mentioned in our article
 
-   | Downstream task           | Link                                                         |
-   |:--------------------------| :----------------------------------------------------------- |
-   | cell type identification  | [Tutorial_Identification.ipynb](https://github.com/SELECT-FROM/scPEFT/blob/main/tutorial_peft/Tutorial_Identification.ipynb) |
-   | batch correction          | [Tutorial_BatchCorrection.ipynb](https://github.com/SELECT-FROM/scPEFT/blob/main/tutorial_peft/Tutorial_BatchCorrection.ipynb) |
-   | perturbation              | [Tutorial_Perturbation.ipynb](https://github.com/SELECT-FROM/scPEFT/blob/main/tutorial_peft/Tutorial_Perturbation.ipynb) |
-   | cell population discovery | [Tutorial_CellPopulationDiscovery.ipynb](https://github.com/SELECT-FROM/scPEFT/blob/main/tutorial_peft/Tutorial_CellPopulationDiscovery.ipynb) |
-   | marker gene detection     | [Tutorial_MarkerGeneDetection.ipynb](https://github.com/SELECT-FROM/scPEFT/blob/main/tutorial_peft/Tutorial_MarkerGeneDetection.ipynb) |
+   | Downstream task           | Link                                                                                                                                           |
+   |:--------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
+   | cell type identification  | [Tutorial_Identification.ipynb](https://github.com/coffee19850519/scPEFT/blob/main/tutorial_peft/Tutorial_Identification.ipynb)                |
+   | batch correction          | [Tutorial_BatchCorrection.ipynb](https://github.com/coffee19850519/scPEFT/blob/main/tutorial_peft/Tutorial_BatchCorrection.ipynb)                 |
+   | perturbation              | [Tutorial_Perturbation.ipynb](https://github.com/coffee19850519/scPEFT/blob/main/tutorial_peft/Tutorial_Perturbation.ipynb)                       |
+   | cell population discovery | [Tutorial_CellPopulationDiscovery.ipynb](https://github.com/coffee19850519/scPEFT/blob/main/tutorial_peft/Tutorial_CellPopulationDiscovery.ipynb) |
+   | marker gene detection     | [Tutorial_MarkerGeneDetection.ipynb](https://github.com/coffee19850519/scPEFT/blob/main/tutorial_peft/Tutorial_MarkerGeneDetection.ipynb)         |
 
 ## To-do-list
 
@@ -63,6 +62,8 @@ welcome any issues you encounter while using scPEFT.
 We sincerely thank the authors of following open-source projects:
 
 - [scGPT](https://github.com/bowang-lab/scGPT)
+- [Geneformer](https://huggingface.co/ctheodoris/Geneformer)
+- [scBERT](https://github.com/TencentAILabHealthcare/scBERT)
 - [scanpy](https://github.com/scverse/scanpy)
 - [scib](https://github.com/theislab/scib)
 - [pytorch](https://github.com/pytorch/pytorch)
