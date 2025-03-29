@@ -1,7 +1,7 @@
 # scPEFT
 
 This is the official repository for **Harnessing the Power of Single Cell Large Language Models with Parameter Efficient
-Fine-Tuning**
+Fine-Tuning using scPEFT**. To reproduce the results from the paper, please visit [scPEFT_reproduction](https://github.com/coffee19850519/scPEFT_reproduction).
 
 [![Preprint](https://img.shields.io/badge/preprint-available-brightgreen)](https://www.biorxiv.org/content/10.1101/2024.01.27.577455v1)
 &nbsp;
@@ -28,8 +28,8 @@ cd scPEFT
 
 ## Get Started
 
-1. Download the upstream
-   model  [scGPT model checkpoint](https://github.com/bowang-lab/scGPT/blob/main/README.md#pretrained-scgpt-model-zoo)
+1. Download the backbone
+   model, e.g., [scGPT model checkpoint](https://github.com/bowang-lab/scGPT/blob/main/README.md#pretrained-scgpt-model-zoo)
    and place it at e.g., `work_dir/scPEFT/save`. We recommend using
    the [whole-human](https://drive.google.com/drive/folders/1oWh_-ZRdhtoGQ2Fw24HP41FgLoomVo-y?usp=sharing) model for
    most applications by default, which pretrained on 33 million normal human cells.
