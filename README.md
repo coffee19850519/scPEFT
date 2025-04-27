@@ -71,13 +71,14 @@ We sincerely thank the authors of following open-source projects:
 ## Citing scPEFT
 
 ```bibtex
-@article {He2024.01.27.577455,
-	author = {Fei He and Ruixin Fei and Mingyue Gao and Li Su and Xinyu Zhang and Dong Xu},
-	title = {Parameter-Efficient Fine-Tuning Enhances Adaptation of Single Cell Large Language Model for Cell Type Identification},
-	year = {2024},
-	doi = {10.1101/2024.01.27.577455},
+@article {He2025.04.21.649754,
+	author = {He, Fei and Fei, Ruixin and Krull, Jordan E. and Zhang, Xinyu and Gao, Mingyue and Su, Li and Chen, Yibo and Yu, Yang and Li, Jinpu and Jin, Baichuan and Chang, Yuzhou and Ma, Anjun and Ma, Qin and Xu, Dong},
+	title = {Harnessing the Power of Single-Cell Large Language Models with Parameter Efficient Fine-Tuning using scPEFT},
+	year = {2025},
+	doi = {10.1101/2025.04.21.649754},
 	publisher = {Cold Spring Harbor Laboratory},
-	URL = {https://www.biorxiv.org/content/early/2024/01/30/2024.01.27.577455},
+	URL = {https://www.biorxiv.org/content/early/2025/04/23/2025.04.21.649754},
 	journal = {bioRxiv}
 }
+
 ```
