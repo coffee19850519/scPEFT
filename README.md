@@ -3,7 +3,7 @@
 This is the official repository for **Harnessing the Power of Single Cell Large Language Models with Parameter Efficient
 Fine-Tuning using scPEFT**. To reproduce the results from the paper, please visit [scPEFT_reproduction](https://github.com/coffee19850519/scPEFT_reproduction).
 
-**:fire:UPDATE**: We have released several new reproductions for revised manuscript. Please see the [scPEFT_reproduction](https://github.com/coffee19850519/scPEFT_reproduction) for more details.
+**:fire:UPDATE**: We have released several new reproductions for the revised manuscript. Please see the [scPEFT_reproduction](https://github.com/coffee19850519/scPEFT_reproduction) for more details.
 
 
 [![Preprint](https://img.shields.io/badge/preprint-available-brightgreen)](https://www.biorxiv.org/content/10.1101/2024.01.27.577455v1)
@@ -25,7 +25,7 @@ git clone https://github.com/coffee19850519/scPEFT
 cd scPEFT
 ```
 
-**Note**: scPEFT is currently built on top of [scGPT](https://github.com/bowang-lab/scGPT), [scBERT](https://github.com/TencentAILabHealthcare/scBERT), and [Geneformer](https://huggingface.co/ctheodoris/Geneformer).
+**Note**: scPEFT is currently built on top of [scGPT](https://github.com/bowang-lab/scGPT), [scBERT](https://github.com/TencentAILabHealthcare/scBERT), [scFoundation](https://github.com/biomap-research/scFoundation/) and [Geneformer](https://huggingface.co/ctheodoris/Geneformer).
 Please follow their installation instructions to ensure all necessary versioned dependencies are installed. We provide a [requirements. ymal](https://github.com/SELECT-FROM/scPEFT/blob/main/requirements.yaml) file for the environment in which scPEFT was developed.
 
 ## Get Started
@@ -52,6 +52,8 @@ Please follow their installation instructions to ensure all necessary versioned 
 
 - [x] Publish to pypi
 - [x] Adapting scPEFT for native-attention
+- [ ] Release scripts for more downstream tasks
+- [ ] Release scripts for more scLLM backbones
 - [ ] Adapting scPEFT for flash-attention
 - [ ] Only retain PEFT-related parameters when saving peft-model weights.
 
@@ -67,6 +69,7 @@ We sincerely thank the authors of following open-source projects:
 - [scGPT](https://github.com/bowang-lab/scGPT)
 - [Geneformer](https://huggingface.co/ctheodoris/Geneformer)
 - [scBERT](https://github.com/TencentAILabHealthcare/scBERT)
+- [scFoundation](https://github.com/biomap-research/scFoundation/)
 - [scanpy](https://github.com/scverse/scanpy)
 - [scib](https://github.com/theislab/scib)
 - [pytorch](https://github.com/pytorch/pytorch)
