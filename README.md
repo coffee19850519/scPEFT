@@ -3,7 +3,7 @@
 This is the official repository for **Harnessing the Power of Single Cell Large Language Models with Parameter Efficient
 Fine-Tuning using scPEFT**. To reproduce the results from the paper, please visit [scPEFT_reproduction](https://github.com/coffee19850519/scPEFT_reproduction).
 
-**:fire:UPDATE**: We have released several new reproductions for the revised manuscript. Please see the [scPEFT_reproduction](https://github.com/coffee19850519/scPEFT_reproduction) for more details.
+**:fire:UPDATE**: We have released several new reproductions for the revised manuscript. Please see [scPEFT_reproduction](https://github.com/coffee19850519/scPEFT_reproduction) for more details.
 
 
 [![Preprint](https://img.shields.io/badge/preprint-available-brightgreen)](https://www.biorxiv.org/content/10.1101/2024.01.27.577455v1)
