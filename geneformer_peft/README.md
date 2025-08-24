@@ -1,1 +1,1 @@
-
+please download the Geneformer pretrained files and checkpoints [geneformer-12L-30M-prompt](https://mailmissouri-my.sharepoint.com/:f:/g/personal/hefe_umsystem_edu/EnMxoKxbenxIpwvVIxThH3EB_GcH0d0gIpEW_J_3riNhSA?e=9hfu2Z) into Pretrain_ckpts path.
