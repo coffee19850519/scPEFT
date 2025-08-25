@@ -2,24 +2,3 @@
 ### and download the scBERT gene tokenizer parameter file [gene2vec_16906.npy](https://mailmissouri-my.sharepoint.com/:u:/g/personal/hefe_umsystem_edu/EVuLpRYVokpKgfppwFG6inEB8IN05BLX5OBmht3v6eir2g?e=CHndIy)  and put it into the ***performer_pytorch*** path
 
 
-# for scPEFT
-```shell
-python  cell_classification_scpeft_scBERT.py --data_name NSCLC
-python  cell_classification_scpeft_scBERT.py --data_name COVID
-python  cell_classification_scpeft_scBERT.py --data_name ms
-```
-
-
-# for finetuned scBERT
-```shell
-python  cell_classification_finetune_scBERT.py --data_name NSCLC
-python  cell_classification_finetune_scBERT.py --data_name COVID
-python  cell_classification_finetune_scBERT.py --data_name ms
-```
-
-# for native scBERT
-```shell
-python  Mapping_scBERT.py --data_name NSCLC
-python  Mapping_scBERT.py --data_name COVID
-python  Mapping_scBERT.py --data_name ms
-```
