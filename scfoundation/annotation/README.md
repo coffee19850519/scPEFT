@@ -1,1 +1,1 @@
-
+please download the scFoundation [pretrained files and checkpoints](https://mailmissouri-my.sharepoint.com/:f:/g/personal/hefe_umsystem_edu/EoCITFRQ1AlCs-fVtoSD_oABgxJU7TGHIyx84kRq_3mw2w?e=wbsd9l) into scFoundation/annotations/models/
