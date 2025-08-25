@@ -1,4 +1,4 @@
-# scPEFT
+# scPEFT: Harnessing the Power of Single-Cell Large Language Models with Parameter-Efficient Fine-Tuning 
 
 This is the official repository for **Harnessing the Power of Single Cell Large Language Models with Parameter Efficient
 Fine-Tuning using scPEFT**. To reproduce the results from the paper, please visit [scPEFT_reproduction](https://github.com/coffee19850519/scPEFT_reproduction).
@@ -9,6 +9,11 @@ Fine-Tuning using scPEFT**. To reproduce the results from the paper, please visi
 [![Preprint](https://img.shields.io/badge/preprint-available-brightgreen)](https://www.biorxiv.org/content/10.1101/2024.01.27.577455v1)
 &nbsp;
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/username/repo/blob/main/LICENSE)
+
+## Overview
+we propose scPEFT, a framework that integrates Parameter-Efficient Fine-Tuning (PEFT) techniques into scLLMs to calibrate them for specialized use cases. Unlike traditional finetuning, which modifies the entire model, scPEFT employs low-dimensional, learnable, and pluggable adapters to customize scLLMs in a separate, reduced-dimensional subspace. The critical role of these proxy adapters is to estimate a ‘model delta’ (standing for changes in some model parameters) for context alignment under the guidance of task-specific objective functions and limited custom data. During the adaptation process, the original scLLM parameters are frozen to preserve pre-learned biological knowledge, while only the smaller adapter parameters are updated. This design reduces the complexity of domain adaptation, enabling higher performance with fewer resources than traditional finetuning strategies of scLLMs in out-of-context scenarios. Furthermore, the learned model delta integrates biological context into the attention scores of scLLMs, enabling conditional interpretations that align with pre-learned general gene activities and condition-specific requirements.
+
+![overview]()
 
 ## Installation
 
@@ -57,7 +62,7 @@ Please follow their installation instructions to ensure all necessary versioned 
 - [x] Publish to pypi
 - [x] Adapting scPEFT for native-attention
 - [ ] Release scripts for more downstream tasks
-- [ ] Release scripts for more scLLM backbones
+- [x] Release scripts for more scLLM backbones
 - [ ] Adapting scPEFT for flash-attention
 - [ ] Only retain PEFT-related parameters when saving peft-model weights.
 
