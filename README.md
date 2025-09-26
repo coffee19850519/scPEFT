@@ -3,6 +3,8 @@
 This is the official repository for **Harnessing the Power of Single Cell Large Language Models with Parameter Efficient
 Fine-Tuning using scPEFT**. To reproduce the results from the paper, please visit [scPEFT_reproduction](https://github.com/coffee19850519/scPEFT_reproduction).
 
+**:exclamation: 9/25/2025 UPDATE** We have released the reproduction for benchmarking the linear model on perturbation prediction. Please see [scPEFT_reproduction](https://github.com/coffee19850519/scPEFT_reproduction/blob/main/README.md#exclamation-9252025-update-perturbation-prediction-with-the-linear-model) for more details.
+
 **:fire:UPDATE**: We have released several new reproductions for the revised manuscript. Please see [scPEFT_reproduction](https://github.com/coffee19850519/scPEFT_reproduction) for more details.
 
 
