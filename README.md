@@ -12,6 +12,8 @@ Fine-Tuning using scPEFT**. To reproduce the results from the paper, please visi
 &nbsp;
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/username/repo/blob/main/LICENSE)
 
+[![DOI](https://zenodo.org/badge/868709362.svg)](https://doi.org/10.5281/zenodo.17781911)
+
 ## Overview
 we propose scPEFT, a framework that integrates Parameter-Efficient Fine-Tuning (PEFT) techniques into scLLMs to calibrate them for specialized use cases. Unlike traditional finetuning, which modifies the entire model, scPEFT employs low-dimensional, learnable, and pluggable adapters to customize scLLMs in a separate, reduced-dimensional subspace. The critical role of these proxy adapters is to estimate a ‘model delta’ (standing for changes in some model parameters) for context alignment under the guidance of task-specific objective functions and limited custom data. During the adaptation process, the original scLLM parameters are frozen to preserve pre-learned biological knowledge, while only the smaller adapter parameters are updated. This design reduces the complexity of domain adaptation, enabling higher performance with fewer resources than traditional finetuning strategies of scLLMs in out-of-context scenarios.
 
