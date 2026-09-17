@@ -34,7 +34,7 @@ cd scPEFT
 ```
 
 **Note**: scPEFT is currently built on top of [scGPT](https://github.com/bowang-lab/scGPT), [scBERT](https://github.com/TencentAILabHealthcare/scBERT), [scFoundation](https://github.com/biomap-research/scFoundation/) and [Geneformer](https://huggingface.co/ctheodoris/Geneformer).
-Please follow their installation instructions to ensure all necessary versioned dependencies are installed. We provide a [requirements. ymal](https://github.com/SELECT-FROM/scPEFT/blob/main/requirements.yaml) file for the environment in which scPEFT was developed.
+Please follow their installation instructions to ensure all necessary versioned dependencies are installed. We provide a [requirements.ymal](https://github.com/SELECT-FROM/scPEFT/blob/main/requirements.yaml) file for the environment in which scPEFT was developed.
 
 ## Get Started
 
